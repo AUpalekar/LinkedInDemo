@@ -1,0 +1,44 @@
+﻿@model DemoLinkedINLogin.Models.LinkedINResVM
+
+
+@{
+    ViewBag.Title = "LinkedINAuth";
+}
+
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <label>ID:- @Model.id</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <label>First Name:- @Model.firstName</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Last Name:- @Model.lastName</label>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Headline:- @Model.headline</label>
+    </div>
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <label>Profile URL:- <a href="@Model.siteStandardProfileRequest.url" target="_blank"></a> </label>
+    </div>
+</div>
+
+
